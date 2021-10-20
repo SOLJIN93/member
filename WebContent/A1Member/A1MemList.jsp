@@ -6,7 +6,7 @@
 <%	request.setCharacterEncoding("UTF-8"); %>
 <%
 	// (1) 변수부
-	// (1-1) 수신 변수
+	// (1-1) 수신 변수22123
 	String schItem = request.getParameter("schItem");
 	if(schItem==null)	schItem = request.getParameter("selItem"); // 자체 검색
 
